@@ -54,7 +54,7 @@ public:
         //step 2: assign value to the data field of the new node
         newNode->info = x;
 
-         //step 3: make the left and right child of the new node point to NULL
+        //step 3: make the left and right child of the new node point to NULL
         newNode->leftchild = nullptr;
         newNode->rightchild = nullptr;
 
@@ -72,5 +72,9 @@ public:
             //5b: exit
             return;
         }
+
+        //step 6: if the value in the data field of new node is less off parent
+        if (x < parent->info)
+        {}
     }
 };
