@@ -68,6 +68,9 @@ public:
         {
             //5a: mark the new node as ROOT
             ROOT = newNode;
+
+            //5b: exit
+            return;
         }
     }
 };
