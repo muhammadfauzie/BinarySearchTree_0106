@@ -75,6 +75,10 @@ public:
 
         //step 6: if the value in the data field of new node is less off parent
         if (x < parent->info)
-        {}
+        {
+            //6a: make the left child of parent point to the new node
+            parent->leftchild = newNode;
+
+        }
     }
 };
