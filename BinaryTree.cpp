@@ -65,6 +65,9 @@ public:
 
         //step 5: if parent is NULL, (Tree is empty)
         if (parent == nullptr)
-        {}
+        {
+            //5a: mark the new node as ROOT
+            ROOT = newNode;
+        }
     }
 };
