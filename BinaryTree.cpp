@@ -81,7 +81,12 @@ public:
 
              //6b: exit
             return;
+        }
 
+        //step 7: if the value in the data field of the new node is greater than that of the parent
+        else if (x > parent->info)
+        {
+            
         }
     }
 };
