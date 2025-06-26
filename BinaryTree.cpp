@@ -32,5 +32,13 @@ public:
         //specified Node as well as the current Node of its parent
         currentNode = ROOT; 
         parent = nullptr;
+        while ((currentNode != nullptr) && (currentNode->info != elemen))
+        {
+            parent = currentNode; 
+            if (elemen < currentNode->info)
+                currentNode = currentNode->leftchild; 
+            else
+                currentNode = currentNode->rightchild; 
+        }
      }
 };
