@@ -41,4 +41,11 @@ public:
                 currentNode = currentNode->rightchild; 
         }
      }
+
+     void insert()
+    {
+        int x;
+        cout << "Masukkan nilai: ";
+        cin >> x;
+    }
 };
