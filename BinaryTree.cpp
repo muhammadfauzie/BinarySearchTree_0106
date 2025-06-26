@@ -25,4 +25,12 @@ public:
     {
         ROOT = nullptr; //Initialize ROOT to null
     }
+
+     void search(int elemen, Node *&parent, Node *&currentNode)
+     {
+        //This function searches the currentNode of the
+        //specified Node as well as the current Node of its parent
+        currentNode = ROOT; 
+        parent = nullptr;
+     }
 };
