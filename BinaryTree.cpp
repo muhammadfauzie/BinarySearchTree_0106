@@ -79,6 +79,9 @@ public:
             //6a: make the left child of parent point to the new node
             parent->leftchild = newNode;
 
+             //6b: exit
+            return;
+
         }
     }
 };
